@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@400;500;600&display=swap');
+nav {
+border: 1px rgb(171, 40, 252) solid;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+ul {
+display: flex; 
+border-top: 3px rgb(3, 15, 30) solid;
+justify-content: center;
+gap: 50px;
+padding-top: 15px;
+}
+li {
+list-style-type: none;
+font-weight: bold;
+padding-top: 15px;
+}
+.pg0 {
+ height: 700px; 
+ background-image: url(/public/pg0.jpg);
+ background-size: cover;
+}
+h2 {
+color: rgb(249, 249, 250);
+font-size: 2.5rem;
+font-family: "Roboto Slab", serif;
+}
+h4 {
+font-size: 12px; 
+width: 40%;
+color: rgb(254, 255, 255); 
+}
+button {
+ all: unset;
+ background-color: rgb(248, 246, 246);
+ color: rgb(29, 23, 9);
+ font-size: 1rem; 
+ font-family: "Roboto Slab", serif;
+}
+.head-s2 {
+font-size: 1.30rem;
+color: rgb(31, 31, 113);
+}
+p {
+ color: rgb(67, 63, 63); 
+ font-size: 1rem;
+ width: 80%;
+}
+.cards {
+ display: flex; 
+ justify-content: center;
+}
+.c {
+width: 40%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.pg9 {
+ height: 200px; 
+ background-image: url(/src/pg9.png);
+ background-size: cover;
+}
+h3{
+  color: aliceblue;
+  justify-content: center;
+}
+h4 {
+color: aliceblue;
+flex-direction: column;
+}
